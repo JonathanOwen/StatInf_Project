@@ -1,0 +1,34 @@
+Statistical Inference
+=====================
+Course Project
+--------------
+Jonathan Owen  
+
+May 6th, 2015  
+
+Introduction
+------------
+
+
+
+Creating samples
+----------------
+To examine the relationship between population and sample distribution, 1000 
+samples from an exponential distribution with lambda = 0.2 were created with the 
+following code.
+
+```{r}
+set.seed(050615) 
+exp_samples <- data.frame(x = rexp(1000, 0.2))
+```  
+
+View the sample distribution
+```{r, message = FALSE}
+library(ggplot2)
+library(ggthemes)
+```
+
+```{r, message = FALSE}
+ggplot(data = exp_samples, aes(x)) + theme_pander() + geom_histogram()
+```
+

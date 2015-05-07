@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1430965902358.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "22A6172B",
+    "lastKnownWriteTime" : 12948050799755363,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "exp_samples",
+        "contentUrl" : "content?title=exp_samples&file=fccb8c3a7467414a9652c19c782ef9dd.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 1,
+        "totalObservations" : 1000,
+        "variables" : 1
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
